@@ -1,7 +1,9 @@
 # Gophish Setup Client
 
 ## Introduction
-`gophish_setup_client` is a command-line tool designed for setting up Gophish without the need for a graphical user interface. This tool facilitates automation and simplifies the Gophish configuration process.
+`gophish_setup_client` is a command-line tool designed to set up Gophish without a graphical user interface. This tool facilitates automation and simplifies the Gophish configuration process.
+
+It will set `password_change_required=false` and API key to the one from the CLI argument.
 
 ## Prerequisites
 - Golang must be installed on your system to build the executable.
